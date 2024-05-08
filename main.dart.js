@@ -72201,10 +72201,10 @@ var $async$wu=A.a1(function(c,d){if(c===1)return A.Y(d,r)
 while(true)switch(s){case 0:B.b.W(a.gtn())
 a.c=0
 a.b=""
-q="&q="+A.ma(b," ","+")+"&image_type=photo"
-a.b=q
+q=A.ma(b," ","+")
+if(b!=="")a.b="&q="+q+"&image_type=photo"
 s=2
-return A.ab(new A.v0().Ml(q),$async$wu)
+return A.ab(new A.v0().Ml(a.b),$async$wu)
 case 2:p=d.c
 if(p!=null)a.P_(p)
 return A.Z(null,r)}})
